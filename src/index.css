@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#marquee{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#bitfont{
+    font-family: 'Comic Neue', cursive;
+}
