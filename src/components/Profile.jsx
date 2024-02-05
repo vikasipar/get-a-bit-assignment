@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 function Profile() {
   return (
     <motion.div 
-      initial={{y: 400}}
+      initial={{y: 530}}
       animate={{y: 0}}
       transition={{delay:2.3, ease:'easeIn', duration:1.6, type:"spring"}}>
         <motion.div 
