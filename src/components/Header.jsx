@@ -28,9 +28,9 @@ function Header() {
           transition={{duration:0.8, ease:"easeInOut"}} 
           className='block lg:hidden w-screen text-center h-screen top-[50px] absolute z-50 bg-white/90'>
           <div className='w-fit mx-auto p-9 flex flex-col space-y-5 h-fit my-12 z-50'>
-            <motion.span initial={{x:-250, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:0.5, delay: 0.2}} className='flex items-center gap-5'><img src='/static/Profile-pic.png' alt='profile pic' className='cursor-pointer'/>Profile</motion.span>
-            <motion.span initial={{x:-250, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:0.5, delay: 0.3}} className='flex items-center gap-5'><IoWallet className='opacity-[32%] cursor-pointer text-3xl'/> Wallet</motion.span>
-            <motion.span initial={{x:-250, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:0.5, delay: 0.4}} className='flex items-center gap-5'><IoNotifications className='opacity-[32%] cursor-pointer text-3xl'/>Notifications</motion.span>
+            <motion.span initial={{x:-250, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:0.5, delay: 0.2}} className='flex items-center gap-5'><img src='/static/Profile-pic.png' alt='profile pic' className='cursor-pointer'/><span className='text-stone-600'>Profile</span></motion.span>
+            <motion.span initial={{x:-250, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:0.5, delay: 0.3}} className='flex items-center gap-5'><IoWallet className='opacity-[32%] cursor-pointer text-3xl'/> <span className='text-stone-600'>Wallet</span></motion.span>
+            <motion.span initial={{x:-250, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:0.5, delay: 0.4}} className='flex items-center gap-5'><IoNotifications className='opacity-[32%] cursor-pointer text-3xl'/><span className='text-stone-600'>Notifications</span></motion.span>
             <motion.button initial={{x:-250, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:0.5, delay: 0.5}} className='px-[22px] py-[10px] border-2 border-[#764cc2] text-[#764cc2] text-[12px] font-[700] rounded-full'>Share new video</motion.button>
           </div>
           <motion.button initial={{x:-210, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:0.5, delay: 0.6}} className='px-[22px] py-[7px] border-2 border-[#764cc2] text-[#764cc2] text-[12px] font-[700] rounded-full'>Logout</motion.button>
